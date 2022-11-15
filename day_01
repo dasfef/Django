@@ -1,0 +1,34 @@
+[ MVC ]
+M : Model - shape of DataBase
+V : View - seeing on Web Browser
+C : controller - setting functions
+
+1) create virtual environment
+  activate CMD 
+  command : python -m venv {name}
+
+2) pip upgrade
+  : python -m pip install --upgrade pip
+  
+3) Django install
+  : pip install django~=2.0.0
+  
+4) get in environment
+  : {name}\scripts\activate
+  
+5) create own directory
+  : mkdir {directory}
+  
+6) get in own directory
+  : cd {directory}
+  
+7) activate Django
+  : django-admin.py startproject {project name}
+  
+==================================================
+
+setting.py
+  ALLOWED_HOSTS = ['127.0.0']
+  
+  LANGUAGE_CODE = 'en-us' or 'ko'
+  TIME_ZONE = 'Asia/Seoul'
